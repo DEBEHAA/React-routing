@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+}
+
+.hero {
+    background-image: url('https://assets.vogue.in/photos/61d84b5b9db8964401d2b0e4/16:9/w_1280,c_limit/15%20best%20multi-cuisine%20restaurants%20in%20Mumbai,%20New%20Delhi,%20Bengaluru,%20Kolkata%20and%20Goa.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.dish img {
+    display: block;
+    margin: 0 auto 20px; 
+    width: 200px; 
+    height: auto; 
+}
+
+.dish-container {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.menu {
+    padding: 50px 0;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu .dish {
+    text-align: center;
+}
+
+.menu .dish img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.reservation {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.reservation h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.reservation form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.reservation input,
+.reservation textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.reservation button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
